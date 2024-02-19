@@ -4,7 +4,7 @@ import { QualityLevel } from '../../pages/home/types/password.type';
 
 @Injectable()
 export class MockPasswordService {
-  defineQualityLevel(password: string): QualityLevel {
+  defineQualityLevel(): QualityLevel {
     return QualityLevel.Average;
   }
 }
