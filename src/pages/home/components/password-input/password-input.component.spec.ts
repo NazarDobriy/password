@@ -2,8 +2,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
 
 import { PasswordInputComponent } from './password-input.component';
-import { PasswordService } from '../../providers/password.service';
-import { MockPasswordService } from '../../../../tests/providers/mock-password.service';
+import { PasswordService } from '@a-pages/home/providers/password.service';
+import { MockPasswordService } from '@a-tests/providers/mock-password.service';
 import { PasswordStatusFieldComponent } from './password-status-field/password-status-field.component';
 
 describe('PasswordInputComponent', () => {

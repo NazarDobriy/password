@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import { CharacterProperties, QualityLevel } from '../types/password.type';
+import { CharacterProperties, QualityLevel } from '@a-pages/home/types/password.type';
 
 @Injectable()
 export class PasswordService {
