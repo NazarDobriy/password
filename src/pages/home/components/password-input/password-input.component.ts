@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
-import { PasswordService } from '../../providers/password.service';
-import { QualityLevel } from '../../types/password.type';
+import { PasswordService } from '@a-pages/home/providers/password.service';
+import { QualityLevel } from '@a-pages/home/types/password.type';
 
 @Component({
   selector: 'app-password-input',

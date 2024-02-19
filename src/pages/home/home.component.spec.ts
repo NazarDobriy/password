@@ -3,7 +3,7 @@ import { FormsModule } from '@angular/forms';
 
 import { HomeComponent } from './home.component';
 import { PasswordInputComponent } from './components/password-input/password-input.component';
-import { MockPasswordService } from '../../tests/providers/mock-password.service';
+import { MockPasswordService } from '@a-tests/providers/mock-password.service';
 import { PasswordService } from './providers/password.service';
 import { PasswordStatusFieldComponent } from './components/password-input/password-status-field/password-status-field.component';
 
